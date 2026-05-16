@@ -6,6 +6,6 @@ dependencies:
   - pip=24.2
   - numpy=2.0.2
   - matplotlib=3.9.2
-  - pygame=2.6.0
   - pip:
+      - pygame==2.6.0
       - pylab-sdk  # Note: pylab is usually part of matplotlib, but keeping it clean
